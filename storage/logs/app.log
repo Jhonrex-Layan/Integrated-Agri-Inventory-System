@@ -1,0 +1,4 @@
+[2026-10-19 14:09:28] Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'lines FROM sales s JOIN users u ON u.id = s.created_by
+                 WHERE...' at line 1 @ C:\xampp\htdocs\AgriInventory\includes\helpers.php:70
+[2026-10-19 14:24:50] receipt failed: SQLSTATE[HY093]: Invalid parameter number
+[2026-10-19 14:25:16] receipt failed: SQLSTATE[HY093]: Invalid parameter number
