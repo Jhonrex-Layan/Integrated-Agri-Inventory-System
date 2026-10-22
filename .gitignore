@@ -1,0 +1,27 @@
+
+# Private application configuration
+/config/config.php
+/config/api_client.php
+/config/inventory_api.php
+/agri_secrets/
+
+# Local logs and temporary files
+/storage/logs/*
+/storage/cache/*
+*.log
+*.tmp
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dependencies and local test files
+/vendor/
+/node_modules/
+curl_test.php
+config_test.php
